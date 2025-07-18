@@ -1,0 +1,74 @@
+.App {
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+  background-color: #f4f4f4;
+}
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: blueviolet
+  
+}
+.url-shortener-container {
+  background:black;
+  padding: 32px;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+    
+}
+
+h1 {
+  margin-bottom: 24px;
+  text-align: center;
+  color:blue;
+}
+
+
+.after-shortening {
+  background-color:seagreen;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 16px;
+  font-size: 15px;
+}
+
+.history-section {
+  margin-top: 24px;
+}
+
+.history-section h3 {
+  margin-bottom: 12px;
+  color: #444;
+}
+
+.history-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.history-list li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+ 
+
+.shorten-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #0077ff;
+}
